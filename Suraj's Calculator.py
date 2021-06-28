@@ -31,16 +31,16 @@ def find_Simple_Interest():
 	# For Principal As Input
 	Principal = float(input("\n\nEnter Principal Amount : "))
 	#For Rate as Input 
-	Rate = float(input("\nEnter Rate of Interest : "))
+	Rate = float(input("\n\nEnter Rate of Interest : "))
 	
 	#For Time as Input
-	Time = int(input("\nEnter Time : "))
+	Time = int(input("\n\nEnter Time : "))
 	
 	#For Calculation of SI
 	Simple_Interest = (Principal*Rate*Time)/100
 	
 	#For Printing The Calculation of SI
-	print(f"\nSimple Interest Is : ₹ {Simple_Interest}\n")#Use of f-"string"
+	print(f"\n\nSimple Interest Is : ₹ {Simple_Interest}\n")#Use of f-"string"
 	
 	#Printing Line For Decoration And Used Termcolor Module To Color The Output
 	print(colored("\n"+"="*59, "yellow"))
