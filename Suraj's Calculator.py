@@ -1,8 +1,11 @@
 """
+
 *Program To Calculate Simple Interest And Compound Interest*
 Created By :- Suraj Sharma
 Date :- 28.06.2021
+
 """
+
 import os #A system file and functions related module
 
 from termcolor import colored #importing termcolor Module to make programm more Beautiful
