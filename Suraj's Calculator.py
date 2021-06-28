@@ -94,10 +94,15 @@ if __name__ == '__main__':
 			else:
 				print(colored("\nInvalid Input !", "red")) #Else statement To check for A invalid Input By User.
 			
-			choose()
-choose()
+
+			choose() #Use of Recursion
+choose() 
 		
-		
+"""
+
+Recursion Call's A function itself And Work's Like a Loop
+
+"""		
 		
 		
 #=========== Thankyou ===========#
